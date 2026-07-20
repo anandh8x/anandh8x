@@ -13,6 +13,8 @@ I build developer tools and local-first systems for people who spend their day i
 
 > **Now:** shaping [Orma](https://github.com/anandh8x/orma), an offline operational memory for terminal users and the coding agents that work alongside them.
 
+> **Core contributor:** [Zero](https://github.com/Gitlawb/zero), a customizable coding agent built around your model, machine, and rules.
+
 ## What I work with
 
 <p>
@@ -26,12 +28,9 @@ I build developer tools and local-first systems for people who spend their day i
 
 | Project | What it is | Built with |
 | --- | --- | --- |
+| [Zero](https://github.com/Gitlawb/zero) | A customizable, terminal-native coding agent that answers to your model, machine, and rules. **Core contributor.** | Go · Shell · MCP |
 | [Orma](https://github.com/anandh8x/orma) | Local, privacy-first operational memory for terminal workflows and coding agents. | Go · SQLite · local embeddings |
 | [openclaude](https://github.com/anandh8x/openclaude) | A fork used to explore an open-source, multi-model coding-agent CLI. | TypeScript |
-
-## Starting from zero
-
-My public contribution graph is quiet right now. I’m treating that as a clear starting point: build in public, ship useful things, and leave behind documentation that helps the next person move faster.
 
 ## How I like to build
 

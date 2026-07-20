@@ -15,6 +15,8 @@ I build developer tools and local-first systems for people who spend their day i
 
 > **Core contributor:** [Zero](https://github.com/Gitlawb/zero), a customizable coding agent built around your model, machine, and rules.
 
+> **Contributor:** [OpenClaude](https://github.com/Gitlawb/openclaude), a coding agent that runs anywhere and uses anything.
+
 ## What I work with
 
 <p>
@@ -30,7 +32,7 @@ I build developer tools and local-first systems for people who spend their day i
 | --- | --- | --- |
 | [Zero](https://github.com/Gitlawb/zero) | A customizable, terminal-native coding agent that answers to your model, machine, and rules. **Core contributor.** | Go · Shell · MCP |
 | [Orma](https://github.com/anandh8x/orma) | Local, privacy-first operational memory for terminal workflows and coding agents. | Go · SQLite · local embeddings |
-| [openclaude](https://github.com/anandh8x/openclaude) | A fork used to explore an open-source, multi-model coding-agent CLI. | TypeScript |
+| [OpenClaude](https://github.com/Gitlawb/openclaude) | A coding agent that runs anywhere and uses anything. **Contributor — 21 recorded commits.** | TypeScript · Shell |
 
 ## How I like to build
 

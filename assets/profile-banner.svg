@@ -30,7 +30,6 @@
   <circle cx="90" cy="58" r="5" fill="#2dd4bf"/>
   <circle cx="108" cy="58" r="5" fill="#a78bfa"/>
 
-  <text x="70" y="118" fill="#5eead4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="700" letter-spacing="3">ANANDAN / A8X</text>
   <text x="68" y="180" fill="#f8fafc" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="50" font-weight="800" letter-spacing="-1.5">ANANDAN</text>
   <text x="71" y="224" fill="#b8c7e4" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20">Building memory, tooling and infrastructure</text>
   <text x="71" y="252" fill="#b8c7e4" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20">for software agents.</text>

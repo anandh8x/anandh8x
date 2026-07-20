@@ -1,4 +1,4 @@
-name: Generate contribution animation
+name: Generate contribution heatmap
 
 on:
   workflow_dispatch:
@@ -10,19 +10,22 @@ permissions:
 
 jobs:
   generate:
-    name: Build contribution snake
+    name: Build public contribution heatmap
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Generate light and dark SVGs
-        uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg?palette=github-light&color_snake=%230ea5e9&color_dots=%23ebedf0,%23c8e1ff,%237db6ff,%233b82f6,%231d4ed8
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%2322d3ee&color_dots=%23161b22,%230f3d4f,%230e7490,%2306b6d4,%238b5cf6
+      - name: Check out profile repository
+        uses: actions/checkout@v4
 
-      - name: Publish animation to output branch
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate light and dark heatmaps
+        run: node scripts/generate-contribution-heatmap.mjs dist
+
+      - name: Publish heatmaps to output branch
         uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output

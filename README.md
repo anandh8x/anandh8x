@@ -102,9 +102,9 @@ Have an interesting project in this space? Feel free to reach out.
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anandh8x/anandh8x/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anandh8x/anandh8x/output/github-contribution-grid-snake.svg" />
-    <img alt="GitHub contribution activity stream" src="https://raw.githubusercontent.com/anandh8x/anandh8x/output/github-contribution-grid-snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anandh8x/anandh8x/output/contribution-heatmap-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anandh8x/anandh8x/output/contribution-heatmap.svg" />
+    <img alt="GitHub contribution heatmap" src="https://raw.githubusercontent.com/anandh8x/anandh8x/output/contribution-heatmap.svg" />
   </picture>
 </p>
 

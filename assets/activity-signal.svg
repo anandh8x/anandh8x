@@ -25,7 +25,7 @@
   <rect x="24" y="24" width="1232" height="512" rx="18" fill="#11182b" stroke="#66739a" stroke-opacity=".24"/>
   <path d="M856 51V509" stroke="#7481a5" stroke-opacity=".27"/>
 
-  <text x="62" y="72" fill="#7bf1a8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="700" letter-spacing="2.4">ACTIVITY SIGNAL</text>
+  <text x="62" y="72" fill="#7bf1a8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="700" letter-spacing="2.4">GITHUB ACTIVITY</text>
   <text x="62" y="103" fill="#f8fafc" font-family="ui-sans-serif, system-ui, sans-serif" font-size="24" font-weight="760">Contribution activity · last 31 days</text>
   <text x="790" y="72" fill="#91a0c4" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="1.4">SNAPSHOT · 20 JUL 2026</text>
 
@@ -54,7 +54,7 @@
   </g>
   <text x="80" y="468" fill="#91a0c4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">PUBLIC CONTRIBUTIONS · 31-DAY WINDOW</text>
 
-  <text x="895" y="72" fill="#7bf1a8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="700" letter-spacing="2.4">LANGUAGE SIGNAL</text>
+  <text x="895" y="72" fill="#7bf1a8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="700" letter-spacing="2.4">LANGUAGES</text>
   <text x="895" y="103" fill="#f8fafc" font-family="ui-sans-serif, system-ui, sans-serif" font-size="24" font-weight="760">Featured project stack</text>
   <text x="895" y="130" fill="#91a0c4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">ZERO · OPENCLAUDE · ORMA</text>
 

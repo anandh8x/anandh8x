@@ -1,69 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 560" role="img" aria-labelledby="title desc">
-  <title id="title">Anandh8x activity signal</title>
-  <desc id="desc">A dark dashboard showing 155 public contributions over the last 31 days and the languages used across Anandh8x's featured public work.</desc>
-  <defs>
-    <linearGradient id="canvas" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0b1020"/>
-      <stop offset="100%" stop-color="#17112f"/>
-    </linearGradient>
-    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#a78bfa" stop-opacity=".34"/>
-      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#7bf1a8"/>
-      <stop offset="52%" stop-color="#b8a7ff"/>
-      <stop offset="100%" stop-color="#e5a8ff"/>
-    </linearGradient>
-    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 440" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub activity and language stack</title>
+  <desc id="desc">A GitHub-style card showing 155 public contributions over the last 31 days and the languages used across featured projects.</desc>
+  <rect width="1280" height="440" rx="14" fill="#0d1117"/>
+  <rect x="16" y="16" width="1248" height="408" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <path d="M868 42V398" stroke="#30363d"/>
 
-  <rect width="1280" height="560" rx="24" fill="url(#canvas)"/>
-  <rect x="24" y="24" width="1232" height="512" rx="18" fill="#11182b" stroke="#66739a" stroke-opacity=".24"/>
-  <path d="M856 51V509" stroke="#7481a5" stroke-opacity=".27"/>
+  <text x="52" y="61" fill="#58a6ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700" letter-spacing="1.8">CONTRIBUTION ACTIVITY</text>
+  <text x="52" y="96" fill="#f0f6fc" font-family="ui-sans-serif, system-ui, sans-serif" font-size="27" font-weight="700">Last 31 days</text>
+  <text x="825" y="61" text-anchor="end" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.2">SNAPSHOT · 20 JUL 2026</text>
 
-  <text x="62" y="72" fill="#7bf1a8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="700" letter-spacing="2.4">GITHUB ACTIVITY</text>
-  <text x="62" y="103" fill="#f8fafc" font-family="ui-sans-serif, system-ui, sans-serif" font-size="24" font-weight="760">Contribution activity · last 31 days</text>
-  <text x="790" y="72" fill="#91a0c4" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="1.4">SNAPSHOT · 20 JUL 2026</text>
-
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
-    <text x="65" y="142" fill="#f8fafc" font-size="30" font-weight="700">155</text>
-    <text x="65" y="162" fill="#91a0c4" font-size="11" letter-spacing="1.2">CONTRIBUTIONS</text>
-    <text x="202" y="142" fill="#f8fafc" font-size="30" font-weight="700">26</text>
-    <text x="202" y="162" fill="#91a0c4" font-size="11" letter-spacing="1.2">ACTIVE DAYS</text>
-    <text x="314" y="142" fill="#f8fafc" font-size="30" font-weight="700">21</text>
-    <text x="314" y="162" fill="#91a0c4" font-size="11" letter-spacing="1.2">PEAK DAY</text>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="52" y="139" fill="#f0f6fc" font-size="25" font-weight="700">155</text><text x="52" y="160" fill="#8b949e" font-size="12">contributions</text>
+    <text x="180" y="139" fill="#f0f6fc" font-size="25" font-weight="700">26</text><text x="180" y="160" fill="#8b949e" font-size="12">active days</text>
+    <text x="285" y="139" fill="#f0f6fc" font-size="25" font-weight="700">21</text><text x="285" y="160" fill="#8b949e" font-size="12">peak day</text>
   </g>
 
-  <g stroke="#7180a7" stroke-opacity=".23" stroke-dasharray="3 5">
-    <path d="M80 187H805"/><path d="M80 238H805"/><path d="M80 289H805"/><path d="M80 340H805"/><path d="M80 391H805"/>
-    <path d="M80 187V391"/><path d="M201 187V391"/><path d="M322 187V391"/><path d="M443 187V391"/><path d="M563 187V391"/><path d="M684 187V391"/><path d="M805 187V391"/>
+  <g stroke="#21262d" stroke-dasharray="3 5">
+    <path d="M65 190H830"/><path d="M65 240H830"/><path d="M65 290H830"/><path d="M65 340H830"/>
   </g>
-  <g fill="#91a0c4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10">
-    <text x="68" y="191" text-anchor="end">21</text><text x="68" y="242" text-anchor="end">16</text><text x="68" y="293" text-anchor="end">11</text><text x="68" y="344" text-anchor="end">6</text><text x="68" y="395" text-anchor="end">0</text>
-    <text x="80" y="420" text-anchor="middle">JUN 20</text><text x="201" y="420" text-anchor="middle">JUN 25</text><text x="322" y="420" text-anchor="middle">JUN 30</text><text x="443" y="420" text-anchor="middle">JUL 05</text><text x="563" y="420" text-anchor="middle">JUL 10</text><text x="684" y="420" text-anchor="middle">JUL 15</text><text x="805" y="420" text-anchor="middle">TODAY</text>
+  <g fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10">
+    <text x="55" y="194" text-anchor="end">21</text><text x="55" y="244" text-anchor="end">14</text><text x="55" y="294" text-anchor="end">7</text><text x="55" y="344" text-anchor="end">0</text>
+    <text x="65" y="371" text-anchor="middle">JUN 20</text><text x="193" y="371" text-anchor="middle">JUN 25</text><text x="320" y="371" text-anchor="middle">JUN 30</text><text x="447" y="371" text-anchor="middle">JUL 05</text><text x="575" y="371" text-anchor="middle">JUL 10</text><text x="703" y="371" text-anchor="middle">JUL 15</text><text x="830" y="371" text-anchor="middle">TODAY</text>
   </g>
 
-  <path d="M80 265 L104 313 L128 323 L153 372 L177 372 L201 372 L225 333 L249 381 L273 352 L298 391 L322 372 L346 391 L370 362 L394 323 L418 333 L443 372 L467 352 L491 381 L515 352 L539 255 L563 391 L588 187 L612 381 L636 391 L660 391 L684 343 L708 362 L733 362 L757 284 L781 275 L805 284 L805 391 L80 391 Z" fill="url(#area)"/>
-  <polyline points="80,265 104,313 128,323 153,372 177,372 201,372 225,333 249,381 273,352 298,391 322,372 346,391 370,362 394,323 418,333 443,372 467,352 491,381 515,352 539,255 563,391 588,187 612,381 636,391 660,391 684,343 708,362 733,362 757,284 781,275 805,284" fill="none" stroke="url(#line)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-  <g fill="#b8a7ff" stroke="#11182b" stroke-width="2">
-    <circle cx="80" cy="265" r="3.5"/><circle cx="104" cy="313" r="3.5"/><circle cx="128" cy="323" r="3.5"/><circle cx="153" cy="372" r="3.5"/><circle cx="177" cy="372" r="3.5"/><circle cx="201" cy="372" r="3.5"/><circle cx="225" cy="333" r="3.5"/><circle cx="249" cy="381" r="3.5"/><circle cx="273" cy="352" r="3.5"/><circle cx="298" cy="391" r="3.5"/><circle cx="322" cy="372" r="3.5"/><circle cx="346" cy="391" r="3.5"/><circle cx="370" cy="362" r="3.5"/><circle cx="394" cy="323" r="3.5"/><circle cx="418" cy="333" r="3.5"/><circle cx="443" cy="372" r="3.5"/><circle cx="467" cy="352" r="3.5"/><circle cx="491" cy="381" r="3.5"/><circle cx="515" cy="352" r="3.5"/><circle cx="539" cy="255" r="3.5"/><circle cx="563" cy="391" r="3.5"/><circle cx="588" cy="187" r="4.5" fill="#7bf1a8" filter="url(#glow)"/><circle cx="612" cy="381" r="3.5"/><circle cx="636" cy="391" r="3.5"/><circle cx="660" cy="391" r="3.5"/><circle cx="684" cy="343" r="3.5"/><circle cx="708" cy="362" r="3.5"/><circle cx="733" cy="362" r="3.5"/><circle cx="757" cy="284" r="3.5"/><circle cx="781" cy="275" r="3.5"/><circle cx="805" cy="284" r="4.5" fill="#7bf1a8" filter="url(#glow)"/>
+  <path d="M65 248 L91 283 L116 290 L142 326 L167 326 L193 326 L218 297 L244 333 L269 312 L295 340 L320 326 L346 340 L371 319 L397 290 L422 297 L448 326 L473 312 L499 333 L524 312 L550 241 L575 340 L601 191 L626 333 L652 340 L677 340 L703 305 L728 319 L754 319 L779 262 L805 255 L830 262 L830 340 L65 340 Z" fill="#58a6ff" fill-opacity=".08"/>
+  <polyline points="65,248 91,283 116,290 142,326 167,326 193,326 218,297 244,333 269,312 295,340 320,326 346,340 371,319 397,290 422,297 448,326 473,312 499,333 524,312 550,241 575,340 601,191 626,333 652,340 677,340 703,305 728,319 754,319 779,262 805,255 830,262" fill="none" stroke="#58a6ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#58a6ff" stroke="#0d1117" stroke-width="2">
+    <circle cx="65" cy="248" r="3"/><circle cx="91" cy="283" r="3"/><circle cx="116" cy="290" r="3"/><circle cx="142" cy="326" r="3"/><circle cx="167" cy="326" r="3"/><circle cx="193" cy="326" r="3"/><circle cx="218" cy="297" r="3"/><circle cx="244" cy="333" r="3"/><circle cx="269" cy="312" r="3"/><circle cx="295" cy="340" r="3"/><circle cx="320" cy="326" r="3"/><circle cx="346" cy="340" r="3"/><circle cx="371" cy="319" r="3"/><circle cx="397" cy="290" r="3"/><circle cx="422" cy="297" r="3"/><circle cx="448" cy="326" r="3"/><circle cx="473" cy="312" r="3"/><circle cx="499" cy="333" r="3"/><circle cx="524" cy="312" r="3"/><circle cx="550" cy="241" r="3"/><circle cx="575" cy="340" r="3"/><circle cx="601" cy="191" r="4" fill="#3fb950"/><circle cx="626" cy="333" r="3"/><circle cx="652" cy="340" r="3"/><circle cx="677" cy="340" r="3"/><circle cx="703" cy="305" r="3"/><circle cx="728" cy="319" r="3"/><circle cx="754" cy="319" r="3"/><circle cx="779" cy="262" r="3"/><circle cx="805" cy="255" r="3"/><circle cx="830" cy="262" r="4" fill="#3fb950"/>
   </g>
-  <text x="80" y="468" fill="#91a0c4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">PUBLIC CONTRIBUTIONS · 31-DAY WINDOW</text>
+  <text x="65" y="401" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="1">PUBLIC CONTRIBUTIONS</text>
 
-  <text x="895" y="72" fill="#7bf1a8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="700" letter-spacing="2.4">LANGUAGES</text>
-  <text x="895" y="103" fill="#f8fafc" font-family="ui-sans-serif, system-ui, sans-serif" font-size="24" font-weight="760">Featured project stack</text>
-  <text x="895" y="130" fill="#91a0c4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">ZERO · OPENCLAUDE · ORMA</text>
+  <text x="906" y="61" fill="#58a6ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700" letter-spacing="1.8">LANGUAGES</text>
+  <text x="906" y="96" fill="#f0f6fc" font-family="ui-sans-serif, system-ui, sans-serif" font-size="25" font-weight="700">Featured project stack</text>
+  <text x="906" y="122" fill="#8b949e" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">Languages used across public work and contributions</text>
 
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
-    <circle cx="901" cy="184" r="5" fill="#60a5fa"/><text x="917" y="189" fill="#f1f5f9" font-size="14">Go</text><text x="1215" y="189" text-anchor="end" fill="#91a0c4" font-size="11">ZERO · ORMA</text><rect x="895" y="204" width="320" height="9" rx="4.5" fill="#27304a"/><rect x="895" y="204" width="252" height="9" rx="4.5" fill="#60a5fa"/>
-    <circle cx="901" cy="250" r="5" fill="#38bdf8"/><text x="917" y="255" fill="#f1f5f9" font-size="14">TypeScript</text><text x="1215" y="255" text-anchor="end" fill="#91a0c4" font-size="11">OPENCLAUDE</text><rect x="895" y="270" width="320" height="9" rx="4.5" fill="#27304a"/><rect x="895" y="270" width="222" height="9" rx="4.5" fill="#38bdf8"/>
-    <circle cx="901" cy="316" r="5" fill="#7bf1a8"/><text x="917" y="321" fill="#f1f5f9" font-size="14">Shell</text><text x="1215" y="321" text-anchor="end" fill="#91a0c4" font-size="11">ZERO · ORMA</text><rect x="895" y="336" width="320" height="9" rx="4.5" fill="#27304a"/><rect x="895" y="336" width="148" height="9" rx="4.5" fill="#7bf1a8"/>
-    <circle cx="901" cy="382" r="5" fill="#facc15"/><text x="917" y="387" fill="#f1f5f9" font-size="14">JavaScript</text><text x="1215" y="387" text-anchor="end" fill="#91a0c4" font-size="11">OPENCLAUDE · ZERO</text><rect x="895" y="402" width="320" height="9" rx="4.5" fill="#27304a"/><rect x="895" y="402" width="98" height="9" rx="4.5" fill="#facc15"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="15">
+    <circle cx="913" cy="165" r="6" fill="#00add8"/><text x="930" y="170" fill="#f0f6fc">Go</text><text x="1217" y="170" text-anchor="end" fill="#8b949e" font-size="12">Zero · Orma</text>
+    <circle cx="913" cy="210" r="6" fill="#3178c6"/><text x="930" y="215" fill="#f0f6fc">TypeScript</text><text x="1217" y="215" text-anchor="end" fill="#8b949e" font-size="12">OpenClaude</text>
+    <circle cx="913" cy="255" r="6" fill="#89e051"/><text x="930" y="260" fill="#f0f6fc">Shell</text><text x="1217" y="260" text-anchor="end" fill="#8b949e" font-size="12">Zero · Orma</text>
+    <circle cx="913" cy="300" r="6" fill="#f1e05a"/><text x="930" y="305" fill="#f0f6fc">JavaScript</text><text x="1217" y="305" text-anchor="end" fill="#8b949e" font-size="12">OpenClaude · Zero</text>
   </g>
-  <text x="895" y="466" fill="#91a0c4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">+ SQLITE · MCP · MAKE · POWERSHELL · ASTRO</text>
-  <text x="895" y="509" fill="#7d8aae" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="1">PUBLIC WORK + FEATURED CONTRIBUTIONS</text>
+  <path d="M906 330H1217" stroke="#30363d"/>
+  <text x="906" y="358" fill="#8b949e" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">Also working with SQLite, MCP, Make, PowerShell, and Astro.</text>
+  <text x="906" y="401" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="1">PUBLIC WORK + FEATURED CONTRIBUTIONS</text>
 </svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title description">
+  <title id="title">Anandan — software-agent tooling and infrastructure</title>
+  <desc id="description">A terminal-inspired banner showing the flow from terminal to agent, memory, tools, and action.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#060b16"/>
+      <stop offset="52%" stop-color="#0c1830"/>
+      <stop offset="100%" stop-color="#160d31"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="55%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#8ba4cb" stroke-opacity=".08"/>
+    </pattern>
+    <filter id="softGlow" x="-25%" y="-40%" width="150%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="24" fill="url(#background)"/>
+  <rect width="1200" height="360" rx="24" fill="url(#grid)"/>
+  <path d="M-20 306C163 248 260 350 458 291S787 226 1220 308" fill="none" stroke="#22d3ee" stroke-opacity=".16" stroke-width="2"/>
+  <path d="M-20 326C183 266 287 365 479 309S818 249 1220 327" fill="none" stroke="#a78bfa" stroke-opacity=".15" stroke-width="2"/>
+
+  <circle cx="72" cy="58" r="5" fill="#22d3ee" filter="url(#softGlow)"/>
+  <circle cx="90" cy="58" r="5" fill="#2dd4bf"/>
+  <circle cx="108" cy="58" r="5" fill="#a78bfa"/>
+
+  <text x="70" y="118" fill="#5eead4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="700" letter-spacing="3">ANANDAN / A8X</text>
+  <text x="68" y="180" fill="#f8fafc" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="50" font-weight="800" letter-spacing="-1.5">ANANDAN</text>
+  <text x="71" y="224" fill="#b8c7e4" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20">Building memory, tooling and infrastructure</text>
+  <text x="71" y="252" fill="#b8c7e4" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20">for software agents.</text>
+  <rect x="70" y="284" width="320" height="4" rx="2" fill="url(#flow)"/>
+
+  <g transform="translate(548 90)">
+    <path d="M32 105H532" stroke="url(#flow)" stroke-width="3" stroke-linecap="round"/>
+    <path d="M120 105l9-7v14zM233 105l9-7v14zM346 105l9-7v14zM459 105l9-7v14z" fill="#67e8f9"/>
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" letter-spacing="1.2" text-anchor="middle">
+      <g transform="translate(0 0)">
+        <rect x="0" y="70" width="98" height="70" rx="10" fill="#0c1d33" stroke="#22d3ee" stroke-opacity=".8"/>
+        <text x="49" y="98" fill="#67e8f9">TERMINAL</text><text x="49" y="120" fill="#93a4bd">$ prompt</text>
+      </g>
+      <g transform="translate(113 0)">
+        <rect x="0" y="70" width="98" height="70" rx="10" fill="#0d2337" stroke="#2dd4bf" stroke-opacity=".8"/>
+        <text x="49" y="98" fill="#5eead4">AGENT</text><text x="49" y="120" fill="#93a4bd">reason</text>
+      </g>
+      <g transform="translate(226 0)">
+        <rect x="0" y="70" width="98" height="70" rx="10" fill="#10233b" stroke="#38bdf8" stroke-opacity=".8"/>
+        <text x="49" y="98" fill="#7dd3fc">MEMORY</text><text x="49" y="120" fill="#93a4bd">retain</text>
+      </g>
+      <g transform="translate(339 0)">
+        <rect x="0" y="70" width="98" height="70" rx="10" fill="#171b3a" stroke="#818cf8" stroke-opacity=".8"/>
+        <text x="49" y="98" fill="#a5b4fc">TOOLS</text><text x="49" y="120" fill="#93a4bd">operate</text>
+      </g>
+      <g transform="translate(452 0)">
+        <rect x="0" y="70" width="98" height="70" rx="10" fill="#1f173c" stroke="#a78bfa" stroke-opacity=".8"/>
+        <text x="49" y="98" fill="#c4b5fd">ACTION</text><text x="49" y="120" fill="#93a4bd">ship</text>
+      </g>
+    </g>
+    <text x="275" y="30" text-anchor="middle" fill="#8ba4cb" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="2">CONTEXT FLOW</text>
+    <text x="275" y="174" text-anchor="middle" fill="#5eead4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.6">TERMINAL → AGENT → MEMORY → TOOLS → ACTION</text>
+  </g>
+</svg>

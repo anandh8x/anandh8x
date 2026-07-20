@@ -27,8 +27,11 @@ I build developer tools and local-first systems for people who spend their day i
 | Project | What it is | Built with |
 | --- | --- | --- |
 | [Orma](https://github.com/anandh8x/orma) | Local, privacy-first operational memory for terminal workflows and coding agents. | Go · SQLite · local embeddings |
-| [termux-rice](https://github.com/anandh8x/termux-rice) | A personal Termux setup for a more capable mobile terminal. | Shell |
 | [openclaude](https://github.com/anandh8x/openclaude) | A fork used to explore an open-source, multi-model coding-agent CLI. | TypeScript |
+
+## Starting from zero
+
+My public contribution graph is quiet right now. I’m treating that as a clear starting point: build in public, ship useful things, and leave behind documentation that helps the next person move faster.
 
 ## How I like to build
 
